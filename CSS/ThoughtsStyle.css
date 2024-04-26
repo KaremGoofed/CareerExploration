@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body {
+	color: #FFFFFF;
+	font-size: 20px;
+	background-color: #A3A3A3;
+	background-image: linear-gradient(#656565 , #000000);
+	background-size: 100%;
+	height: 100%;
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	letter-spacing: 1px;
+}
+
+a {
+	color: pink;
+}
+
+h3 {
+	font-size: 35px;
+	text-shadow: 3px 2px #000000;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+	background-color: w;
+	border: 50px;
+}
+	
+.column.side {
+	width: 23%;
+}
+	
+.column.middle {
+	width: 50%;
+}
+	
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
